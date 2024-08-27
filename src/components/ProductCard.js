@@ -10,6 +10,6 @@ const ProductCard = ({ product, addToCart }) => {
       <button onClick={() => addToCart(product)}>Comprar</button>
     </div>
   );
-}
+};
 
 export default ProductCard;

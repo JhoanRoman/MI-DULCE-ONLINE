@@ -5,6 +5,9 @@ import './Header.css';
 const Header = () => {
   return (
     <header className="header">
+      <div className="logo">
+        <Link to="/"><img src="/path-to-your-logo.png" alt="MiDulceOnline Logo" className="logo-image" /></Link>
+      </div>
       <h1>Dulcería MiDulceOnline</h1>
       <nav>
         <ul>

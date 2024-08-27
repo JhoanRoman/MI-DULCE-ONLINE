@@ -1,12 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import ShoppingCart from '../components/ShoppingCart';
 import './ShoppingCartPage.css';
 
-function ShoppingCartPage() {
-  const [cartItems, setCartItems] = useState([]);
-
-  // Aquí podrías agregar lógica para manejar el carrito
-
+function ShoppingCartPage({ cartItems }) {
   return (
     <div className="shopping-cart-page">
       <ShoppingCart cartItems={cartItems} />
