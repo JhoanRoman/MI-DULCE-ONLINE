@@ -1,0 +1,35 @@
+.shopping-cart-page {
+  padding: 20px;
+}
+
+.shopping-cart-page h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.shopping-cart-page ul {
+  list-style: none;
+  padding: 0;
+}
+
+.shopping-cart-page li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.shopping-cart-page .cart-product-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+
+.shopping-cart-page p {
+  margin: 0;
+  font-size: 1rem;
+  color: #333;
+}

@@ -1,0 +1,15 @@
+.dashboard-page {
+    padding: 20px;
+  }
+  
+  .product-dashboard {
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  
+  .product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
